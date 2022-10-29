@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+.inner{
+	width:49.8%;
+	text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body{
+background-image: url("images/background.jpg");
+}
+button{
+  width: 180px;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 800;
+  color: #000;
+  background-color: #5bba13;
+  border: 2px solid ;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+
+}
+button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+</style>
+</head>
+<body >
+<h1 style="font-family:Franklin Gothic Medium;text-align:center; color:white;text-shadow: 4px 2px 2px #071ca6;">Welcome to The Online Book Store</h1>
+<div style="margin-top:250px;width:100%;text-align:center; display:flex;">
+<div class="inner">
+<button type="button" onclick="location.href='AdminLogin.jsp'">Admin</button>
+</div>
+<div class="inner">
+<button type="button" onclick="location.href='UserLogin.jsp'">User</button>
+</div>
+</div>
+</body>
+</html>
